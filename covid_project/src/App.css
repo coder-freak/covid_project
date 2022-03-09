@@ -255,4 +255,131 @@ h2 {
     opacity: 1;
   }
 }
-    
+  
+/*for covid data*/
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+.covidData {
+  background-color: rgb(231, 242, 248);
+  width: 40%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 6px;
+  padding: 10px;
+}
+  .enter
+  {
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    margin: auto;
+    align-self: center;
+  }
+
+  
+.covidData__form {
+  padding: 10px;
+  margin: 20px;
+  
+}
+.covidData__input input {
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  font-size: 18px;
+  font-family:Lucida Console, Geneva, Tahoma, sans-serif;
+}
+.covidData__input button {
+  width: 50%;
+  
+  margin-top: 10px;
+  background-color: rgb(245, 210, 210);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+ align-self: center;
+  cursor: pointer;
+}
+  
+  
+.covidData__country__info {
+  font-size: 20px;
+  font-family: Open Sans Condensed, sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-left: 10px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 2px;
+  box-shadow: 5px 5px 5px rgb(241, 236, 236);
+}
+.covid_data_title
+{
+ text-transform: uppercase;
+ text-align: center;
+background-image: linear-gradient(
+  -225deg,
+  #231557 0%,
+  #44107a 29%,
+  #ff1361 67%,
+  #fff800 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+font-size: 25px;
+margin-top: 2%;
+
+}
+
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+.spread
+{
+font-family: 'Noto Serif Display', serif;
+text-align: justify;
+padding:80px;
+background-color: rgb(216, 241, 211);
+}
+
+
+.cont {
+position: relative;
+font-family: sans-serif;
+text-transform: uppercase;
+font-size: 1em;
+letter-spacing: 4px;
+overflow: hidden;
+background: linear-gradient(90deg, #000, #fff, #000);
+background-repeat: no-repeat;
+background-size: 80%;
+animation: animate 10s linear infinite;
+background-clip: text;
+-webkit-text-fill-color: rgba(231, 145, 145, 0);
+}
+
+@keyframes animate {
+0% {
+  background-position: -500%;
+}
+100% {
+  background-position: 500%;
+}
+}
+
+.Covid_data_Submit
+{
+  align-self: center;
+  top: 50%;
+left: 50%;
+}
