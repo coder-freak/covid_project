@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import CovidData from './components/CovidData';
 import Footer from './components/footer';
 import {Route, Switch} from 'react-router-dom';
 import Login from './components/Login';
@@ -50,6 +51,7 @@ function App() {
       <Route exact path="/" component={Home}/>
       <Route exact path="/about" component={About}/>
       <Route exact path="/contact" component={Contact}/>
+      <Route exact path="/CovidData" component={CovidData}/>
       <Protectedroute exact path="/login" component={Login} auth={auth1}/>
       <Protectedroute exact path="/register" component={Register} auth={auth1}/>
       <Protectedroute exact path="/dashboard" component={Dashboard} auth={auth}/>
