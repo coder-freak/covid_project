@@ -19,7 +19,7 @@
 }
 body
 {
-  background-image: url("C:\Users\dhanush balaji\Desktop\covid_project\covid_project\public\background.jpg");
+  background-image: url("https://i.ibb.co/cCJ54Sk/Whats-App-Image-2022-03-09-at-5-34-03-PM.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -382,4 +382,11 @@ background-clip: text;
   align-self: center;
   top: 50%;
 left: 50%;
+}
+
+/*Dashboard contents*/
+.dashboard_font
+{
+  text-align: center;
+  font-style: italic;
 }

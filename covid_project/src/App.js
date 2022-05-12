@@ -13,6 +13,7 @@ import Dashboard from './components/Dashboard';
 import Logout from './components/Logout';
 import Protectedroute from './Protected';
 import { useEffect, useState } from 'react';
+
 function App() {
   // Check If User is Logged In
   const [auth, setauth] = useState(false);

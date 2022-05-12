@@ -70,8 +70,7 @@ const Contact = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-6">
-                            <img src="contact.jpg" alt="Contact" className="w-75" />
-                        </div>
+                            <img src="contact.jpg" alt="Contact" className="w-75" />    {/*https://i.ibb.co/chH8b9w/contact.jpg*/}                  </div>
                         <div className="col-md-6">
                             <form onSubmit={handleSubmit} method="POST">
                                 <div className="mb-3">
